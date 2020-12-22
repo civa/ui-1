@@ -38,11 +38,11 @@ export class Footer extends React.PureComponent<FooterProps> {
         ko: 'Korean'
       },
       links: {
-        home: 'Home',
-        privacy: 'Privacy Policy',
-        terms: 'Terms of Use',
-        content: 'Content Policy',
-        ethics: 'Code of Ethics'
+        home: 'Link',
+        privacy: 'Link',
+        terms: 'Link',
+        content: 'Link',
+        ethics: 'Link'
       }
     }
   }
@@ -77,30 +77,30 @@ export class Footer extends React.PureComponent<FooterProps> {
             i18n={i18n.dropdown}
           />
           <div className="links">
-            <a href="https://decentraland.org">{i18n.links.home}</a>
-            <a href="https://decentraland.org/privacy">{i18n.links.privacy}</a>
-            <a href="https://decentraland.org/terms">{i18n.links.terms}</a>
-            <a href="https://decentraland.org/content">{i18n.links.content}</a>
-            <a href="https://decentraland.org/ethics">{i18n.links.ethics}</a>
+            <a href="https://">{i18n.links.home}</a>
+            <a href="https://">{i18n.links.privacy}</a>
+            <a href="https://">{i18n.links.terms}</a>
+            <a href="https://">{i18n.links.content}</a>
+            <a href="https://">{i18n.links.ethics}</a>
           </div>
         </div>
         <div className="secondary-footer">
           <div className="social-links">
-            <a href="https://dcl.gg/discord">
+            <a href="https://">
               <i className="social-icon discord" />
             </a>
-            <a href="https://reddit.com/r/decentraland">
+            <a href="https://reddit.com/r/">
               <i className="social-icon reddit" />
             </a>
-            <a href="https://github.com/decentraland">
+            <a href="https://github.com/">
               <i className="social-icon github" />
             </a>
-            <a href="https://twitter.com/decentraland">
+            <a href="https://twitter.com/">
               <i className="social-icon twitter" />
             </a>
           </div>
           <div className="copyright">
-            © {new Date().getFullYear()} Decentraland
+            © {new Date().getFullYear()} NFT
           </div>
         </div>
       </Container>
